@@ -28,6 +28,13 @@
         "version": 1
       }
     ],
+    [
+      "0x511d900cb46a802dfe7db4206a5d8778cadf9494c52a6185f16e8b7ee4d69c6",
+      {
+        "path": "cairo-contracts/NapaManager.casm.json",
+        "version": 1
+      }
+    ],
     ["0x10000", { "path": "cairo-contracts/ERC20.json", "version": 0 }],
     ["0x80000", { "path": "cairo-contracts/ERC721.json", "version": 0 }],
     [
