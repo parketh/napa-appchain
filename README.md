@@ -1,6 +1,8 @@
-# Madara App Chain Template
+# Napa Appchain
 
-A fresh [Madara](https://github.com/keep-starknet-strange/madara) app chain, ready for hacking 🚀
+Appchain for [Napa](https://github.com/parketh/napa), an on-chain options order book.
+
+Created with [Madara](https://github.com/keep-starknet-strange/madara) using the [Madara appchain template](https://github.com/keep-starknet-strange/madara-app-chain-template).
 
 All bugs, suggestions, and feature requests should be made upstream in the [Madara](https://github.com/keep-starknet-strange/madara) repository.
 
