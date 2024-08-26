@@ -5,7 +5,7 @@ from starknet_py.net.models import StarknetChainId
 from starknet_py.net.signer.stark_curve_signer import KeyPair
 import asyncio
 
-async def deploy_account() -> asyncio.coroutine:
+async def deploy_account():
   # First, make sure to generate private key and salt
 
   key_pair = KeyPair.from_private_key(0x3e4a0938f64a1d08d83978cb5e1762fca85e5d7a9f6abd78f95cce5df56c8e9c)
@@ -24,7 +24,7 @@ async def deploy_account() -> asyncio.coroutine:
   # Make sure the tx has been accepted on L2 before proceeding
 
   # Define the client to be used to interact with Starknet
-  client = FullNodeClient(node_url="127.0.0.1:9944")
+  client = FullNodeClient(node_url="ws://127.0.0.1:9944")
   chain = StarknetChainId.TESTNET
 
   # Use `Account.deploy_account` static method to deploy an account
